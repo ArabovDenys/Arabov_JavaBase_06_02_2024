@@ -10,11 +10,11 @@ public class Main {
         int archerMin = 35;
         int riderMin = 12;
 
-        int AttackRateLi = 860;
-        int AttackRateMin = (int) (AttackRateLi * 1.5);
+        int warriorsLi = 860;
+        int warriorsMin = (int) (warriorsLi * 1.5);
 
-        int totalAttackRateLi = AttackRateLi * (warriorLi + archerLi + riderLi);
-        int totalAttackRateMin = AttackRateMin * (warriorMin + archerMin + riderMin);
+        int totalAttackRateLi = warriorsLi * (warriorLi + archerLi + riderLi);
+        int totalAttackRateMin = warriorsMin * (warriorMin + archerMin + riderMin);
 
         System.out.println("Загальний показник атаки династії Лі: " + totalAttackRateLi);
         System.out.println("Загальний показник атаки династії Мінь: " + totalAttackRateMin);
